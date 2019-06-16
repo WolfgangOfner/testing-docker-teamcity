@@ -10,5 +10,11 @@ namespace Docker.Test
         {
             Assert.Equal(2, 2);
         }
+
+        [Fact]
+        public void Test2()
+        {
+            Assert.Equal(1, 2);
+        }
     }
 }
