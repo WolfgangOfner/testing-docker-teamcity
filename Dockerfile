@@ -13,6 +13,7 @@ RUN dotnet restore Docker.Test/Docker.Test.csproj
 COPY . .
 
 #test
+ENV TEAMCITY_PROJECT_NAME=fake
 RUN dotnet test Docker.Test/Docker.Test.csproj
  
 #publish
